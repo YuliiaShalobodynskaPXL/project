@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Battleship/registration</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <h2 class="title">Registration</h2>
+
+
+        <form action=" " method="post" enctype="text/plain">
+            <div class="imgcontainer">
+                <img src="./assets/img/logo.jpg" alt="Logo Battleship" class="logo">
+            </div>
+
+            <div id="error_massage"></div>
+
+            <div class="container">
+
+                <label for="email"><b>E-mail: </b></label>
+                <input type="email" placeholder="Enter email" name="Email" id="email">
+                <br /><br />
+
+                <label for="username"><b>Username: </b></label>
+                <input type="text" placeholder="Enter username" name="Username" id="username">
+                <br /><br />
+
+                <label for="wachtwoord"> <b>Wachtwoord: </b> </label>
+                <input type="password" placeholder="Enter Password" name="Wachtwoord" id="wachtwoord">
+                <br /><br />
+
+                <label for="wachtwoord_verificatie"><b>Wachtwoord verificatie:</b> </label>
+                <input type="password" placeholder="Enter Password" name="Wachtwoord_verificatie" id="wachtwoord_verificatie">
+                <br /><br />
+
+                <button type="submit" id="registreer"><b>Registreer</b></button>
+
+                <span>heb je al een account? dan <b><a href="login.html"></a></b><a href="login.html">Login</a></span>
+
+            </div>
+        </form>
+
+        <script src="assets/js/registration.js"></script>
+
+    </body>
+</html>
